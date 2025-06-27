@@ -90,6 +90,8 @@ a:hover {
     width: 800px;
 }
 
-.recipe-box li {
+.recipe-box li,
+.recipe-box p {
     list-style-position: inside;
+    margin: 4px;
 }
