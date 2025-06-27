@@ -3,3 +3,43 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    background-color: white;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+a {
+    text-decoration: none;
+    color: #407088;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #132743;
+}
+
+
+.box {
+    color: #132743;
+    width: 250px;
+    height: auto;
+    margin: 20px auto;
+}
+
+.box-heading {
+    background-color: #ffb5b5;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.recipe-list {
+    background-color: #ffcbcb;
+    padding: 4px;
+    text-align: center;
+}
+
+.recipe-list li {
+    list-style-type: none;
+}
