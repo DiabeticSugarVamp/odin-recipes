@@ -4,8 +4,10 @@
     margin: 0;
 }
 
+
 body {
     background-color: white;
+    color: #132743;
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
@@ -20,26 +22,73 @@ a:hover {
 }
 
 
-.box {
-    color: #132743;
-    width: 250px;
+.home-box {
+    width: 480px;
     height: auto;
     margin: 20px auto;
 }
 
-.box-heading {
+.home-box-heading {
+    font-size: 64px;
     background-color: #ffb5b5;
     padding: 8px;
     text-align: center;
     font-weight: bold;
 }
 
-.recipe-list {
+.home-recipe-list {
+    font-size: 32px;
     background-color: #ffcbcb;
     padding: 4px;
     text-align: center;
 }
 
-.recipe-list li {
+.home-recipe-list li {
     list-style-type: none;
+}
+
+#home-button {
+    background: #ffcbcb;
+    width: 360px;
+    height: auto;
+    padding: 8px;
+    border-radius: 25px;
+    margin: 25px auto;
+    font-size: 36px;
+}
+
+#home-button:hover {
+    background: #ffb5b5;
+}
+
+.title {
+    padding: 8px;
+    width: 400px;
+}
+
+.title h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 4px auto;
+}
+
+.title img {
+    width: 320px;
+    margin: 4px auto;
+    display: block;
+    border-radius: 25px;
+}
+
+.recipe-box,
+.title {
+    margin: 25px auto;
+}
+
+.recipe-box {
+    width: 800px;
+}
+
+.recipe-box li {
+    list-style-position: inside;
 }
